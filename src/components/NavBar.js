@@ -16,7 +16,6 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import "../styles/NavBar.css"
 
 const Navbar = (props) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
