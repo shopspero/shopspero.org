@@ -1,0 +1,144 @@
+.profile-container {
+  position: relative;
+  width: 210px;
+  height: 280px;
+  background-color: #f0eade;
+  transition: width 2s height 2s;
+  text-align: center;
+}
+
+.mobile {
+  width: 150px;
+  height: 200px;
+}
+
+.centered-dark .centered-light .below-dark .below-light {
+  z-index: 0;
+}
+
+.centered-light {
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  color: #eddcd2;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.below-light {
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  color: #eddcd2;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-dark {
+  width: 80%;
+  font-family: "Tenor Sans", serif;
+  font-size: 10px;
+  color: #394648;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-dark {
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  color: #394648;
+  position: absolute;
+  top: 72.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.below-dark {
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  color: #394648;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-amb {
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  color: #394648;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.below-amb {
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  color: #394648;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mobile-middle {
+  font-size: 9px;
+  top: 82%;
+}
+
+.mobile-fontsize {
+  font-size: 9px;
+  top: 88%;
+}
+
+.mobile-topfont {
+  font-size: 8px;
+  top: 43%;
+}
+
+.profile-img {
+  height: 280px;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 100;
+  object-fit: cover;
+}
+
+.profile-img-mobile {
+  height: 200px;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 100;
+  object-fit: cover;
+}
+
+.image-proportion {
+  max-height: 280px;
+  overflow: hidden;
+}
+
+.profile-img:hover {
+  opacity: 0%;
+}

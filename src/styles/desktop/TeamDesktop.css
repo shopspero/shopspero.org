@@ -1,0 +1,75 @@
+.background-main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-size: cover;
+  background: url("../../images/home-bgimage.png") no-repeat center center;
+  background-position: right -9vw;
+  background-size: cover;
+  height: 100%;
+}
+
+.staff-main-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-size: cover;
+  background: url("../../images/home-bgimage-update.png") no-repeat center
+    center;
+  background-position: right -9vw;
+  background-size: cover;
+  height: 100%;
+}
+
+.staff-card-container {
+  position: relative;
+  width: "100%";
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3vw;
+}
+
+.cards-table {
+  display: inline-block;
+  margin-left: 12vw;
+  width: 76vw;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  vertical-align: top;
+  justify-content: space-between;
+  margin-top: 0.25vw;
+}
+
+.ambassador-cards-table {
+  display: inline-block;
+  margin-left: 20vw;
+  width: 60.75vw;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  vertical-align: top;
+  justify-content: space-between;
+  margin-top: 0.25vw;
+  margin-bottom: 5vw;
+}
+
+.staff-title {
+  font-size: 4vw;
+  font-family: "Lexend Deca", sans-serif;
+  color: #5c6a6f;
+  padding-left: 37%;
+  padding-top: 8vw;
+}
+
+.staff-description {
+  font-size: 1vw;
+  font-family: "Lexend Deca", sans-serif;
+  color: #5c6a6f;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 1.5vw;
+  padding-bottom: 3vw;
+  text-align: center;
+  line-height: 2em;
+}
