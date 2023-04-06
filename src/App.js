@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Main from './components/Main'
-import "./App.css";
 import PuffLoader from 'react-spinners/PuffLoader'
 
 function App() {

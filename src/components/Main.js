@@ -6,7 +6,6 @@ import "../styles/Main.css";
 import HomePage from "../pages/desktop/HomeDesktop";
 
 const Main = ({ location }) => {
-
   return (
     <Fragment>
       <TransitionGroup className="transition-group">
