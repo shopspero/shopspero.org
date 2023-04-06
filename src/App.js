@@ -1,13 +1,32 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import Main from './components/Main'
-import PuffLoader from 'react-spinners/PuffLoader'
+import Main from "./components/Main";
+import PuffLoader from "react-spinners/PuffLoader";
+
+import picture1 from "./images/home-bgimage.png";
+import picture2 from "./images/about-bgimage.png";
+import picture3 from "./images/paintFooter.png";
+
+import picture4 from "./images/sliderimage1.jpg";
+import picture5 from "./images/sliderimage2.jpg";
+import picture6 from "./images/sliderimage3.jpg";
+import picture7 from "./images/sliderimage4.jpg";
+import picture8 from "./images/sliderimage5.jpg";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const imgs = [];
+    const imgs = [
+      picture1,
+      picture2,
+      picture3,
+      picture4,
+      picture5,
+      picture6,
+      picture7,
+      picture8,
+    ];
     //setting src property forces browser to load images
     imgs.forEach((image) => {
       new Image().src = image;
