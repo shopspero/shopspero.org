@@ -2,22 +2,22 @@ export const SliderData = [
   {
     image: require("../images/sliderimage1.jpg"),
     description: "NEW ARRIVALS",
-    link: "/shop",
+    link: process.env.PUBLIC_URL + "/shop",
   },
   {
     image: require("../images/sliderimage2.jpg"),
     description: "OUR MISSION",
-    link: "/about",
+    link: process.env.PUBLIC_URL + "/about",
   },
   {
     image: require("../images/sliderimage3.jpg"),
     description: "SHOP NOW",
-    link: "/shop",
+    link: process.env.PUBLIC_URL + "/shop",
   },
   {
     image: require("../images/sliderimage4.jpg"),
     description: "MEET THE TEAM",
-    link: "/team",
+    link: process.env.PUBLIC_URL + "/team",
   },
   {
     image: require("../images/sliderimage5.jpg"),
