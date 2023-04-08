@@ -6,6 +6,7 @@ import "../styles/Main.css";
 import HomePage from "../pages/desktop/HomeDesktop";
 import AboutPage from "../pages/desktop/AboutDesktop";
 import TeamPage from "../pages/desktop/TeamDesktop"
+import DesignsPage from "../pages/desktop/DesignDesktop"
 
 const Main = ({ location }) => {
   return (
@@ -21,8 +22,7 @@ const Main = ({ location }) => {
               <Route exact path="/" component={withRouter(HomePage)} />
               <Route path="/about" component={AboutPage} />
               <Route path="/team" component={TeamPage} />
-              {/* <Route path="/shop" component={DesignsPage} />
-              <Route path="/success" component={SuccessPage} /> */}
+              <Route path="/shop" component={DesignsPage} />
             </Switch>
           </section>
         </CSSTransition>
