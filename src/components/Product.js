@@ -9,9 +9,11 @@ const Product = (props) => {
         <div className="product-popup"></div>
         <div className="product-squares">
           <img src={props.imageURL} alt="Logo" className="product-img" />
-          <div class="product-top-dark">{props.name}</div>
-          <div class="product-centered-dark">{props.title}</div>
-          <div class="product-below-dark">{props.price}</div>
+          <div className="product-text">
+            <div class="product-top-dark">{props.name}</div>
+            <div class="product-centered-dark">{props.title}</div>
+            {props.price && <div class="product-below-dark">{props.price}</div>}
+          </div>
         </div>
       </div>
     </Fade>
