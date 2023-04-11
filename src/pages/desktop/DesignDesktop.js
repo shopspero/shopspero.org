@@ -23,7 +23,7 @@ import RedeemedHoodie from "./designs/RedeemedHoodie.js";
 import Navbar from "../../components/NavBar";
 import Fade from "react-reveal/Fade";
 
-import { Grid, VStack, Text, Box, Link } from "@chakra-ui/react";
+import { Grid, VStack, Text, Box } from "@chakra-ui/react";
 
 import { productPreviewData, newReleaseData } from "./ProductPreviewData";
 
@@ -127,9 +127,8 @@ const DesignsDesktop = (props) => {
           px={{ base: "30px", lg: "100px" }}
           color="#5c6a6f"
           pt="25px"
-          alignItems="start"
         >
-          <Fade bottom>
+          {/* <Fade bottom>
             <Text
               fontFamily="Lexend Deca"
               fontSize={{ base: "3xl", sm: "5xl" }}
@@ -140,21 +139,6 @@ const DesignsDesktop = (props) => {
               NEW RELEASES
             </Text>
           </Fade>
-
-          <Fade bottom>
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScl1aqZNSQ1q9VnaQajA74m9s10Nm18aO_mikAHG8MwF9OidQ/viewform">
-              <Text
-                fontFamily="Lexend Deca"
-                fontSize={"3xl"}
-                border="none"
-                // borderBottom="3px solid #5c6a6f"
-                marginBottom="5%"
-              >
-                Preorder Our New Tote Bag!
-              </Text>
-            </Link>
-          </Fade>
-
           <Grid
             py={10}
             templateColumns={{
@@ -166,7 +150,7 @@ const DesignsDesktop = (props) => {
             gap={1}
           >
             {newReleaseTiles}
-          </Grid>
+          </Grid> */}
           <Fade bottom>
             <Text
               fontFamily="Lexend Deca"

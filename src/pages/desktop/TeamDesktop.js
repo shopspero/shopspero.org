@@ -30,7 +30,6 @@ const TeamPage = (props) => {
           px={{ base: "30px", lg: "100px" }}
           color="#5c6a6f"
           pt="25px"
-          alignItems="start"
         >
           <Fade bottom>
             <Text
